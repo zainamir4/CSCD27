@@ -1,12 +1,12 @@
 # Site settings
 ref: CSCD27
 title: Computer and Network Security
-edition: Fall 2018
+edition: Fall 2019
 description: This course is meant to offer Computer Science undergraduate students a broad overview of the field of computer security. Students will learn the basic concepts in computer security including software vulnerability analysis and defense, networking security, applied cryptography. Students will also learn the fundamental methodology for how to design and analyze the security of critical systems.
-website: https://thierrysans.github.io/CSCD27/
+website: https://thierrysans.me/CSCD27/
 github: https://github.com/ThierrySans/CSCD27
-piazza: https://piazza.com/mail.utoronto.ca/fall2018/cscd27
-feedback: https://goo.gl/forms/v9VMJLDywSltmMSt2
+piazza: https://piazza.com/mail.utoronto.ca/fall2019/cscd27
+feedback: https://forms.gle/GiDcKNfKw9vv1vFs9
 
 instructor:
   name: Thierry Sans
@@ -14,32 +14,32 @@ instructor:
   website: https://thierrysans.github.io/
   github: ThierrySans
   twitter: ThierrySans
-  hours: TBD
+  hours: Tues 11am-1pm
   location: IC-346
   contact: Piazza only (no mail)
-  # hours: Thurs 10:00am-12:00pm
 
 assistants:
-    - name: Xuan Wei
-      role:  T01 & P04
-      contact: x.wei@mail.utoronto.ca
-      hours: by appointment
-      location:
-    - name: Shifeng Jin
-      role:  T03 & P02
-      contact: stone.jin@mail.utoronto.ca
-      hours: by appointment
-      location:
-    - name: Gobin Giritharan
-      role:  T02 & P03
-      contact: gobin.giritharan@mail.utoronto.ca
-      hours: by appointment
-      location: 
-    - name: Tarun yellu
+    - name: Lioudmila Tishkina
+      role:  T02 & P02
+      contact: "&#108;&#117;&#99;&#121;&#46;&#116;&#105;&#115;&#104;&#107;&#105;&#110;&#97;&#64;&#109;&#97;&#105;&#108;&#46;&#117;&#116;&#111;&#114;&#111;&#110;&#116;&#111;&#46;&#99;&#97;"
+      hours: Fri 12-1pm
+      location: IC-402
+    - name: Mustafa Quraish
+      role:  T03 & P03
+      contact: "&#109;&#117;&#115;&#116;&#97;&#102;&#97;&#46;&#113;&#117;&#114;&#97;&#105;&#115;&#104;&#64;&#109;&#97;&#105;&#108;&#46;&#117;&#116;&#111;&#114;&#111;&#110;&#116;&#111;&#46;&#99;&#97;"
+      hours: Wed 1-2pm
+      location: IC-402
+    - name: Rakin Uddin
       role:  T04 & P01
-      contact: tarunkumar.yellu@mail.utoronto.ca
-      hours: by appointment
-      location: 
+      contact: "&#114;&#97;&#107;&#105;&#110;&#46;&#117;&#100;&#100;&#105;&#110;&#64;&#109;&#97;&#105;&#108;&#46;&#117;&#116;&#111;&#114;&#111;&#110;&#116;&#111;&#46;&#99;&#97;"
+      hours: Thu 3-4pm
+      location: IC-402
+    - name: Zhili Pan
+      role:  T01 & P04
+      contact: "&#115;&#97;&#115;&#111;&#114;&#105;&#46;&#112;&#97;&#110;&#64;&#109;&#97;&#105;&#108;&#46;&#117;&#116;&#111;&#114;&#111;&#110;&#116;&#111;&#46;&#99;&#97;"
+      hours: Fri 10-11am
+      location: IC-402
+
   
 timings:
     - section: LEC01 
@@ -59,16 +59,16 @@ timings:
       location: BV 473
     - section: TUT01
       time: Tuesday 17:00-18:00
-      location: IC 326        
+      location: AA 207        
     - section: TUT02
-      time: Thursday 10:00-11:00
-      location: IC 320        
+      time: Thursday 11:00-12:00
+      location: IC 120        
     - section: TUT03
-      time: Tuesday 12:00-13:00
-      location: AA 208        
+      time: Tuesday 9:00-10:00
+      location: MW 140     
     - section: TUT04
       time: Monday 12:00-13:00
-      location: AA 208    
+      location: IC 302    
         
         
-first: 20180903
+first: 20190902

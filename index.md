@@ -38,23 +38,23 @@ We encourage you to post questions regarding course materials and assignments on
 
 <div class="grid">
     <div class="hrow row">
-        <div class="hcolumn column3"></div>
-        <div class="column3">Role</div>
-        <div class="column3">Office Hours</div>
-        <div class="column3">Contact</div>
+        <div class="hcolumn col-xs-3 col-sm-3"></div>
+        <div class="col-xs-2 col-sm-2">Role</div>
+        <div class="col-xs-3 col-sm-3">Office Hours</div>
+        <div class="col-xs-4 col-sm-4">Contact</div>
     </div>
     <div class="row">
-        <div class="hcolumn column3">Thierry Sans</div>
-        <div class="column3">Prof</div>
-        <div class="column3">{{site.data.settings.instructor.hours}}</div>
-        <div class="column3">{{site.data.settings.instructor.contact}}</div>
+        <div class="hcolumn col-xs-3 col-sm-3">Thierry Sans</div>
+        <div class="col-xs-2 col-sm-2">Prof</div>
+        <div class="col-xs-3 col-sm-3">{{site.data.settings.instructor.hours}} ({{site.data.settings.instructor.location}})</div>
+        <div class="col-xs-4 col-sm-4">{{site.data.settings.instructor.contact}}</div>
     </div>
     {% for a in site.data.settings.assistants %}
     <div class="row">
-        <div class="hcolumn column3">{{a.name}}</div>
-        <div class="column3">{{a.role}}</div>
-        <div class="column3">{{a.hours}}</div>
-        <div class="column3">{{a.contact}}</div>
+        <div class="hcolumn col-xs-3 col-sm-3">{{a.name}}</div>
+        <div class="col-xs-2 col-sm-2">{{a.role}}</div>
+        <div class="col-xs-3 col-sm-3">{{a.hours}} ({{a.location}})</div>
+        <div class="col-xs-4 col-sm-4">{{a.contact}}</div>
     </div>
     {% endfor %}
 </div>
@@ -64,15 +64,15 @@ We encourage you to post questions regarding course materials and assignments on
 
 <div class="grid">
     <div class="hrow row">
-        <div class="hcolumn column4"></div>
-        <div class="column4">Time</div>
-        <div class="column4">Location</div>
+        <div class="hcolumn col-xs-3 col-sm-3"></div>
+        <div class="col-xs-6 col-sm-6">Time</div>
+        <div class="col-xs-3 col-sm-3">Location</div>
     </div>
     {% for t in site.data.settings.timings %}
     <div class="row">
-        <div class="hcolumn column4">{{t.section}}</div>
-        <div class="column4">{{t.time}}</div>
-        <div class="column4">{{t.location}}</div>
+        <div class="hcolumn col-xs-3 col-sm-3">{{t.section}}</div>
+        <div class="col-xs-6 col-sm-6">{{t.time}}</div>
+        <div class="col-xs-3 col-sm-3">{{t.location}}</div>
     </div>
     {% endfor %}
 </div>
@@ -97,28 +97,32 @@ The numeric marks of CTF challenges, quizzes and final exam will be used to comp
 
 <div class="grid">
     <div class="hrow row">
-        <div class="hcolumn column4"></div>
-        <div class="column4">Weight</div>
+        <div class="hcolumn col-xs-8 col-sm-8"></div>
+        <div class="col-xs-4 col-sm-4">Weight</div>
     </div>
     <div class="row">
-        <div class="hcolumn column4">CTF challenges</div>
-        <div class="column4">50%</div>
+        <div class="hcolumn col-xs-8 col-sm-8">CTF challenges</div>
+        <div class="col-xs-4 col-sm-4">40%</div>
     </div>
     <div class="row">
-        <div class="hcolumn column4">Quizzes (2 bests out of 3)</div>
-        <div class="column4">10%</div>
+        <div class="hcolumn col-xs-8 col-sm-8">Midterm Exam</div>
+        <div class="col-xs-4 col-sm-4">20%</div>
     </div>
     <div class="row">
-        <div class="hcolumn column4">Final Exam</div>
-        <div class="column4">40%</div>
+        <div class="hcolumn col-xs-8 col-sm-8">Final Exam</div>
+        <div class="col-xs-4 col-sm-4">40%</div>
     </div>
 </div>
+
+If your final mark is higher than midterm exam score, the midterm mark will be dropped and its weight will be added to the final exam. Moreover, there will not be any makeup midterm if you miss the midterm exam (whatever the reason). 
+
+A mark of **at least 40% on the final exam** is required to pass the course. If you receive less than 40% on the final exam you automatically fail the course, regardless of how well you have done on the CTF challenges or the midterm exam.
 
 ## Submission Policy
 
 Electronic copy must be submitted for all assignments, except where explicitly listed as optional for an assignment component. For assignment written work (non-programming), you may submit your document in PDF only.
 
-No late submissions will be accepted for any course work, and no make-up assignments (including quizzes) will be provided for missed/poorly completed work. It is your responsibility to ensure that all work is completed on time and to the best of your ability.
+No late submissions will be accepted for any course work, and no make-up assignments will be provided for missed/poorly completed work. It is your responsibility to ensure that all work is completed on time and to the best of your ability.
 
 If an emergency arises that prevents you from being able to complete any piece of work, or attend an exam, contact one of the instructors immediately. You will need to have a properly completed Illness Verification Form signed by a registered doctor in order to be given special consideration.
 
@@ -142,8 +146,7 @@ Failure to comply with these guidelines is a serious academic offence. In past a
 
 ## Ethical and Legal Behavior
 
-You will be exposed to various unethical and sometimes illegal uses of technology in the course.
-The fact that we cover this material should not be misconstrued as tacit approval to undertake such activities except with the explicit informed consent of all involved parties.
+You will be exposed to various unethical and sometimes illegal uses of technology in the course. The fact that we cover this material should not be misconstrued as tacit approval to undertake such activities except with the explicit informed consent of all involved parties.
 
 The existence and knowledge of a security hole is not an excuse to exploit that vulnerability.
 
